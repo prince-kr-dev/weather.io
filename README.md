@@ -1,3 +1,23 @@
+# 🌦️ Weather Web Application
+
+A responsive weather web application built using **React.js** and **Tailwind CSS**. It displays real-time weather data with a sleek and user-friendly interface.
+
+## 🚀 Features
+- 🌡️ **Real-time Weather Data**: Displays current temperature, humidity, wind speed, and weather conditions.  
+- 📍 **Location Search**: Allows users to search weather by city name.  
+- 🔥 **Responsive Design**: Adapts seamlessly to different screen sizes using Tailwind CSS.  
+- 🌙 **Dynamic UI**: Changes background based on weather conditions (e.g., sunny, rainy, cloudy).  
+
+## 🛠️ Technologies Used
+- **Frontend:** React.js  
+- **Styling:** Tailwind CSS  
+- **API:** OpenWeatherMap API 
+
+## 📸 Screenshots  
+
+
+✅ 🚀
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
