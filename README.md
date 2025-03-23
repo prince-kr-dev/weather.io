@@ -14,7 +14,7 @@ A responsive weather web application built using **React.js** and **Tailwind CSS
 - **API:** OpenWeatherMap API 
 
 ## 📸 Screenshots  
-
+![preview](https://github.com/user-attachments/assets/dcb2ca37-ab6a-4517-a770-56db818937a3)
 
 ✅ 🚀
 
