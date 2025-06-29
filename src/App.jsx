@@ -2,6 +2,7 @@ import "./App.css";
 import SearchBox from "./SearchBox";
 import Info from "./Info";
 import { useState } from "react";
+import bg from "./assets/mild.jpg";
 
 function App() {
   let [weatherInfo, setWeatherInfo] = useState({
@@ -20,7 +21,9 @@ function App() {
 
   return (
     <>
-      <div className="p-10 h-screen w-full flex flex-col gap-6 items-center justify-center bg-teal-100">
+      <div className="p-3 h-screen w-full flex flex-col gap-6 items-center justify-center bg-no-repeat bg-cover bg-center"
+      style={{backgroundImage: `url(${bg})`}}
+      >
         <SearchBox updateWeather={updateWeather} />
         <Info info={weatherInfo} />
       </div>
