@@ -6,15 +6,15 @@ import Typography from "@mui/material/Typography";
 function Info({ info }) {
   return (
     <>
-      <div className="flex flex-col items-center gap-2">
-        <h1 className="text-5xl font-semibold text-sky-800 mb-3">
+      <div className="flex flex-col items-center gap-2 bg-white/30 backdrop-blur-xs border border-white/30 rounded-xl p-2 shadow-lg">
+        <h1 className="text-5xl font-semibold text-black mb-1">
           {info.temperature}&deg;C
         </h1>
         <div>
-          <p className="text-4xl font-semibold text-teal-900 capitalize text-center">
+          <p className="text-4xl font-semibold text-black capitalize text-center">
           <i class="ri-map-pin-2-fill"></i>{info.currCity}
           </p>
-          <p className="text-2xl font-semibold text-teal-900 capitalize text-center">
+          <p className="text-2xl font-semibold text-black capitalize text-center">
           <i class="ri-mist-fill"></i>{info.weatherDes}
           </p>
         </div>
